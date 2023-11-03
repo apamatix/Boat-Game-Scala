@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Tektur";
+    src: url("font/Tektur-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Tektur2";
+    src: url("font/Tektur-Bold.ttf");
+}
+
+.anchor {
+    -fx-background-color: linear-gradient(to right, #00994d, #00b359, #00cc66, #00e673, #00e673, #00cc66, #00b359, #00994d);
+    -fx-background-size: cover;
+}
+
+#backButton {
+    -fx-background-color: linear-gradient(to bottom, #ffcc00, #eece08, #d89603);
+    -fx-background-radius: 20;
+    -fx-text-fill: #331a00;
+    -fx-font-family: "Tektur";
+    -fx-font-size: 17;
+}
+
+#backButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #d89603, #eece08, #ffcc00);
+    -fx-cursor: hand;
+}
+
+.header {
+    -fx-font-size: 62;
+    -fx-font-family: "Tektur";
+    -fx-text-fill: #0d0d0d;
+}
+
+#label1, #label2, #label3, #label4, #label5, #label6, #label7, #label8 {
+    -fx-font-size: 18;
+    -fx-font-family: "Tektur";
+    -fx-text-fill: #331a00;
+}

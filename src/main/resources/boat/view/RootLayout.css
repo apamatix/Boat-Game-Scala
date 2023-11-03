@@ -1,0 +1,13 @@
+#menuBar, #menuApp, #menuGame, #menuHelp, #menuClose, #menuRestart, #menuTutorial {
+    -fx-text-fill: #331a00;
+    -fx-font-size: 15;
+    -fx-font-family: "Tektur";
+    -fx-background-color: linear-gradient(to bottom, #ffcc00, #eece08, #d89603);
+}
+
+#menuApp:hover, #menuGame:hover, #menuHelp:hover, #menuClose:hover, #menuRestart:hover, #menuTutorial:hover {
+    -fx-background-color: linear-gradient(to bottom, #d3280e, #e13c0d, #e1400d);
+    -fx-cursor: hand;
+    -fx-text-fill: #f2f2f2;
+}
+

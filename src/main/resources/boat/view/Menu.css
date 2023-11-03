@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Tektur";
+    src: url("font/Tektur-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Tektur2";
+    src: url("font/Tektur-Bold.ttf");
+}
+
+.anchor {
+    -fx-background-size: cover;
+}
+
+#startButton, #exitButton, #instructionsButton {
+    -fx-background-color: linear-gradient(to bottom, #ffcc00, #eece08, #d89603);
+    -fx-background-radius: 20;
+    -fx-text-fill: #331a00;
+    -fx-font-family: "Tektur";
+    -fx-font-size: 17;
+}
+
+#startButton:hover, #exitButton:hover, #instructionsButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #d89603, #eece08, #ffcc00);
+    -fx-cursor: hand;
+}
+
+.text1 {
+    -fx-font-family: "Tektur";
+    -fx-text-fill: #000000;
+    -fx-font-size: 43;
+}
+
+.text2 {
+    -fx-font-size: 64;
+    -fx-font-family: "Tektur";
+    -fx-text-fill: #0d0d0d;
+}

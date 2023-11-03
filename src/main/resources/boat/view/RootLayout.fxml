@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane stylesheets="@RootLayout.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="boat.view.RootLayoutController">
+    <top>
+        <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu fx:id="menuApp" mnemonicParsing="false" text="App">
+                    <items>
+                        <MenuItem fx:id="menuClose" mnemonicParsing="false" onAction="#handleClose" text="Close"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuGame" mnemonicParsing="false" text="Game">
+                    <items>
+                        <MenuItem fx:id="menuRestart" mnemonicParsing="false" onAction="#handleRestart"
+                                  text="Play again"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuHelp" mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem fx:id="menuTutorial" mnemonicParsing="false" onAction="#handleHelp" text="Tutorial"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

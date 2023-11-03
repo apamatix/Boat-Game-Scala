@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="900.0" styleClass="anchor" stylesheets="@GameplayTutorial.css"
+            xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="boat.view.GameplayTutorialController">
+    <children>
+        <FlowPane prefHeight="600.0" prefWidth="900.0">
+            <children>
+                <Pane prefHeight="600.0" prefWidth="900.0">
+                    <children>
+                        <Button fx:id="backButton" layoutX="385.0" layoutY="520.0" mnemonicParsing="false"
+                                onAction="#handleBack" prefHeight="49.0" prefWidth="131.0" text="BACK"/>
+                        <Label layoutX="271.0" layoutY="22.0" prefHeight="88.0" prefWidth="359.0" styleClass="header"
+                               text="How to Play">
+                            <effect>
+                                <Glow level="0.51"/>
+                            </effect>
+                        </Label>
+                        <Label fx:id="label1" layoutX="38.0" layoutY="132.0"
+                               text="1. Gear up for an exhilarating two-player boat racing adventure!">
+                        </Label>
+                        <Label fx:id="label2" layoutX="38.0" layoutY="178.0"
+                               text="2. Select your desired difficulty level before embarking on this thrilling journey.">
+                        </Label>
+                        <Label fx:id="label3" layoutX="38.0" layoutY="224.0"
+                               text="3. The river transforms into a challenging track consisting of 100 tiles">
+                        </Label>
+                        <Label fx:id="label4" layoutX="38.0" layoutY="271.0"
+                               text="4. Tiles hide currents and traps, making every move a gamble..">
+                        </Label>
+                        <Label fx:id="label5" layoutX="38.0" layoutY="316.0"
+                               text="5. Alternating turns, players roll the dice to determine their movement.">
+                        </Label>
+                        <Label fx:id="label6" layoutX="38.0" layoutY="363.0"
+                               text="6. The player then uses the controls to navigate across the board.">
+                        </Label>
+                        <Label fx:id="label7" layoutX="41.0" layoutY="459.0"
+                               text="7. Be first to finish and claim victory!  Are you the ultimate boat racing champion?">
+                        </Label>
+                        <Label fx:id="label8" layoutX="41.0" layoutY="410.0"
+                               text="7. Currents push you forward, traps set you back.">
+                        </Label>
+                    </children>
+                </Pane>
+            </children>
+        </FlowPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+#player1Dice, #backButton, #player2Dice, #player2Up, #player2Down, #player2Left, #player2Right, #player1Up, #player1Down, #player1Left, #player1Right {
+    -fx-background-color: linear-gradient(to bottom, #ffcc00, #eece08, #d89603);
+    -fx-background-radius: 20;
+    -fx-text-fill: #331a00;
+    -fx-font-family: "Tektur";
+    -fx-font-size: 17;
+}
+
+#player1Dice:hover, #backButton:hover, #player2Dice:hover, #player2Up:hover, #player2Down:hover, #player2Left:hover, #player2Right:hover, #player1Up:hover, #player1Down:hover, #player1Left:hover, #player1Right:hover {
+    -fx-background-color: linear-gradient(to bottom, #d89603, #eece08, #ffcc00);
+    -fx-cursor: hand;
+}
+
+#separator1, #separator2, #separator3 {
+    -fx-text-fill: #331a00;
+}
+
+#player1Text, #player2Text {
+    -fx-text-fill: #331a00;
+    -fx-font-family: "Tektur";
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+#messageText {
+    -fx-font-family: "Tektur";
+    -fx-font-size: 20;
+}
+
+#messagePane {
+    -fx-background-color: #262626;
+}

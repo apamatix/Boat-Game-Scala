@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="900.0" stylesheets="@GameLogic.css" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="boat.view.MainController">
+    <children>
+        <FlowPane prefHeight="600.0" prefWidth="900.0">
+            <children>
+                <Pane prefHeight="600.0" prefWidth="900.0">
+                    <children>
+                        <ImageView fx:id="secondaryBackground" fitHeight="555.0" fitWidth="218.0" layoutX="1.0" layoutY="45.0"
+                                   pickOnBounds="true" preserveRatio="true"/>
+                        <ImageView fx:id="primaryBackground" fitHeight="555.0" fitWidth="684.0" layoutX="218.0"
+                                   layoutY="47.0" pickOnBounds="true" preserveRatio="true"/>
+                        <Button fx:id="backButton" layoutX="50.0" layoutY="529.0" mnemonicParsing="false"
+                                onAction="#handleBack" prefHeight="52.0" prefWidth="129.0" text="MAIN MENU"/>
+                        <Separator fx:id="separator1" layoutX="208.0" layoutY="45.0" orientation="VERTICAL"
+                                   prefHeight="555.0" prefWidth="23.0"/>
+                        <Button fx:id="player1Dice" layoutX="55.0" layoutY="101.0" mnemonicParsing="false"
+                                prefHeight="44.0" prefWidth="117.0" text="ROLL DICE"/>
+                        <Circle fx:id="item9" fill="#f2fffe" layoutX="825.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item8" fill="#f2fffe" layoutX="765.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item7" fill="#f2fffe" layoutX="705.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item6" fill="#f2fffe" layoutX="645.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item5" fill="#f2fffe" layoutX="585.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item4" fill="#f2fffe" layoutX="525.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item3" fill="#f2fffe" layoutX="465.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item2" fill="#f2fffe" layoutX="405.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item1" fill="#f2fffe" layoutX="345.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item0" fill="#f2fffe" layoutX="285.0" layoutY="550.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item10" fill="#f2fffe" layoutX="825.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item11" fill="#f2fffe" layoutX="765.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item12" fill="#f2fffe" layoutX="705.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item13" fill="#f2fffe" layoutX="645.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item14" fill="#f2fffe" layoutX="585.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item15" fill="#f2fffe" layoutX="525.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item16" fill="#f2fffe" layoutX="465.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item17" fill="#f2fffe" layoutX="405.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item18" fill="#f2fffe" layoutX="345.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item19" fill="#f2fffe" layoutX="285.0" layoutY="495.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item29" fill="#f2fffe" layoutX="825.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item28" fill="#f2fffe" layoutX="765.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item27" fill="#f2fffe" layoutX="705.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item26" fill="#f2fffe" layoutX="645.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item25" fill="#f2fffe" layoutX="585.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item24" fill="#f2fffe" layoutX="525.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item23" fill="#f2fffe" layoutX="465.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item22" fill="#f2fffe" layoutX="405.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item21" fill="#f2fffe" layoutX="345.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item20" fill="#f2fffe" layoutX="285.0" layoutY="445.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item30" fill="#f2fffe" layoutX="825.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item31" fill="#f2fffe" layoutX="765.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item32" fill="#f2fffe" layoutX="705.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item33" fill="#f2fffe" layoutX="645.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item34" fill="#f2fffe" layoutX="585.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item35" fill="#f2fffe" layoutX="525.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item36" fill="#f2fffe" layoutX="465.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item37" fill="#f2fffe" layoutX="405.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item38" fill="#f2fffe" layoutX="345.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item39" fill="#f2fffe" layoutX="285.0" layoutY="395.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item49" fill="#f2fffe" layoutX="825.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item48" fill="#f2fffe" layoutX="765.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item47" fill="#f2fffe" layoutX="705.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item46" fill="#f2fffe" layoutX="645.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item45" fill="#f2fffe" layoutX="585.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item44" fill="#f2fffe" layoutX="525.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item43" fill="#f2fffe" layoutX="465.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item42" fill="#f2fffe" layoutX="405.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item41" fill="#f2fffe" layoutX="345.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item40" fill="#f2fffe" layoutX="285.0" layoutY="345.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item50" fill="#f2fffe" layoutX="825.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item51" fill="#f2fffe" layoutX="765.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item52" fill="#f2fffe" layoutX="705.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item53" fill="#f2fffe" layoutX="645.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item54" fill="#f2fffe" layoutX="585.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item55" fill="#f2fffe" layoutX="525.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item56" fill="#f2fffe" layoutX="465.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item57" fill="#f2fffe" layoutX="405.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item58" fill="#f2fffe" layoutX="345.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item59" fill="#f2fffe" layoutX="285.0" layoutY="295.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item69" fill="#f2fffe" layoutX="825.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item68" fill="#f2fffe" layoutX="765.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item67" fill="#f2fffe" layoutX="705.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item66" fill="#f2fffe" layoutX="645.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item65" fill="#f2fffe" layoutX="585.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item64" fill="#f2fffe" layoutX="525.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item63" fill="#f2fffe" layoutX="465.0" layoutY="245.0" radius="17.0"
+                                stroke="#f2fffe" strokeType="INSIDE"/>
+                        <Circle fx:id="item62" fill="#f2fffe" layoutX="405.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item61" fill="#f2fffe" layoutX="345.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item60" fill="#f2fffe" layoutX="285.0" layoutY="245.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item70" fill="#f2fffe" layoutX="825.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item71" fill="#f2fffe" layoutX="765.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item72" fill="#f2fffe" layoutX="705.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item73" fill="#f2fffe" layoutX="645.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item74" fill="#f2fffe" layoutX="585.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item75" fill="#f2fffe" layoutX="525.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item76" fill="#f2fffe" layoutX="465.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item77" fill="#f2fffe" layoutX="405.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item78" fill="#f2fffe" layoutX="345.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item79" fill="#f2fffe" layoutX="285.0" layoutY="195.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item89" fill="#f2fffe" layoutX="825.0" layoutY="145.0" radius="17.0"
+                                stroke="#f2fffe" strokeType="INSIDE"/>
+                        <Circle fx:id="item88" fill="#f2fffe" layoutX="765.0" layoutY="145.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item87" fill="#f2fffe" layoutX="705.0" layoutY="145.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item86" fill="#f2fffe" layoutX="645.0" layoutY="145.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item85" fill="#f2fffe" layoutX="585.0" layoutY="145.0" radius="17.0"
+                                stroke="#f2fffe" strokeType="INSIDE"/>
+                        <Circle fx:id="item84" fill="#f2fffe" layoutX="525.0" layoutY="145.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item83" fill="#f2fffe" layoutX="465.0" layoutY="145.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item82" fill="#f2fffe" layoutX="405.0" layoutY="145.0" radius="17.0"
+                                stroke="#f2fffe" strokeType="INSIDE"/>
+                        <Circle fx:id="item81" fill="#f2fffe" layoutX="345.0" layoutY="145.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item80" fill="#f2fffe" layoutX="285.0" layoutY="145.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item90" fill="#f2fffe" layoutX="825.0" layoutY="98.0" radius="17.0"
+                                stroke="#f2fffe" strokeType="INSIDE"/>
+                        <Circle fx:id="item91" fill="#f2fffe" layoutX="765.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item92" fill="#f2fffe" layoutX="705.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item93" fill="#f2fffe" layoutX="645.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item94" fill="#f2fffe" layoutX="585.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item95" fill="#f2fffe" layoutX="525.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item96" fill="#f2fffe" layoutX="465.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item97" fill="#f2fffe" layoutX="405.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item98" fill="#f2fffe" layoutX="345.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Circle fx:id="item99" fill="#f2fffe" layoutX="285.0" layoutY="98.0" radius="17.0"
+                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Line endX="105.0" layoutX="755.0" layoutY="579.0" startX="-505.0" stroke="#1a1a1a"/>
+                        <Line endX="95.0" layoutX="700.0" layoutY="523.0" startX="-449.0" stroke="#1a1a1a"/>
+                        <Line endX="76.0" layoutX="785.0" layoutY="469.0" startX="-468.0" stroke="#1a1a1a"/>
+                        <Line endX="89.0" layoutX="699.0" layoutY="419.0" startX="-449.0" stroke="#1a1a1a"/>
+                        <Line endX="76.0" layoutX="784.0" layoutY="369.0" startX="-468.0" stroke="#1a1a1a"/>
+                        <Line endX="95.0" layoutX="700.0" layoutY="320.0" startX="-449.0" stroke="#1a1a1a"/>
+                        <Line endX="76.0" layoutX="785.0" layoutY="269.0" startX="-468.0" stroke="#1a1a1a"/>
+                        <Line endX="96.0" layoutX="699.0" layoutY="219.0" startX="-449.0" stroke="#1a1a1a"/>
+                        <Line endX="76.0" layoutX="784.0" layoutY="171.0" startX="-468.0" stroke="#1a1a1a"/>
+                        <Line endX="96.0" layoutX="698.0" layoutY="121.0" startX="-449.0" stroke="#1a1a1a"/>
+                        <Line endX="104.0" layoutX="755.0" layoutY="75.0" startX="-505.0" stroke="#1a1a1a"/>
+                        <Line endX="100.0" endY="8.0" layoutX="1010.0" layoutY="319.0" rotate="90.0" startX="-400.0"
+                              startY="8.0" stroke="#1a1a1a"/>
+                        <Line endX="100.0" endY="8.0" layoutX="400.0" layoutY="319.0" rotate="90.0" startX="-400.0"
+                              startY="8.0" stroke="#1a1a1a"/>
+                        <Polygon fill="#108600" layoutX="286.0" layoutY="11.0"
+                                 points="-2.300908088684082, 53.0781364440918, 28.474620819091797, 44.18952178955078, 28.474620819091797, 61.18952178955078"
+                                 rotate="180.0" stroke="TRANSPARENT" strokeType="INSIDE"/>
+                        <Rectangle fx:id="player1Boat" arcHeight="5.0" arcWidth="5.0" fill="#f29898" height="17.0"
+                                   layoutX="265.0" layoutY="533.0" stroke="TRANSPARENT" strokeType="INSIDE"
+                                   width="39.0"/>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f29898" height="17.0" layoutX="24.0"
+                                   layoutY="69.0" stroke="TRANSPARENT" strokeType="INSIDE" width="39.0"/>
+                        <Rectangle fx:id="player2Boat" arcHeight="5.0" arcWidth="5.0" fill="#be21ff" height="17.0"
+                                   layoutX="265.0" layoutY="553.0" stroke="TRANSPARENT" strokeType="INSIDE"
+                                   width="39.0"/>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#be21ff" height="17.0" layoutX="24.0"
+                                   layoutY="311.0" stroke="TRANSPARENT" strokeType="INSIDE" width="39.0"/>
+                        <Line endX="-67.0" layoutX="367.0" layoutY="68.0" rotate="90.0" startX="-100.0"/>
+                        <Text fx:id="player2Text" layoutX="77.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="PLAYER 2">
+                        </Text>
+                        <Button fx:id="player1Up" layoutX="97.0" layoutY="159.0" mnemonicParsing="false"
+                                onAction="#handlePlayer1Up" text="^"/>
+                        <Button fx:id="player1Down" layoutX="97.0" layoutY="233.0" mnemonicParsing="false"
+                                onAction="#handlePlayer1Down" rotate="180.0" text="^"/>
+                        <Button fx:id="player1Left" layoutX="47.0" layoutY="193.0" mnemonicParsing="false"
+                                onAction="#handlePlayer1Left" text="&lt;"/>
+                        <Button fx:id="player1Right" layoutX="146.0" layoutY="194.0" mnemonicParsing="false"
+                                onAction="#handlePlayer1Right" text="&gt;"/>
+                        <Separator fx:id="separator2" layoutX="-1.0" layoutY="288.0" prefWidth="218.0"/>
+                        <Text fx:id="player1Text" layoutX="77.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="PLAYER 1">
+                        </Text>
+                        <Button fx:id="player2Dice" layoutX="55.0" layoutY="345.0" mnemonicParsing="false"
+                                prefHeight="44.0" prefWidth="117.0" text="ROLL DICE"/>
+                        <Button fx:id="player2Up" layoutX="97.0" layoutY="402.0" mnemonicParsing="false"
+                                onAction="#handlePlayer2Up" text="^"/>
+                        <Button fx:id="player2Down" layoutX="97.0" layoutY="476.0" mnemonicParsing="false"
+                                onAction="#handlePlayer2Down" rotate="180.0" text="^"/>
+                        <Button fx:id="player2Left" layoutX="47.0" layoutY="435.0" mnemonicParsing="false"
+                                onAction="#handlePlayer2Left" text="&lt;"/>
+                        <Button fx:id="player2Right" layoutX="146.0" layoutY="436.0" mnemonicParsing="false"
+                                onAction="#handlePlayer2Right" text="&gt;"/>
+                        <Separator fx:id="separator3" layoutX="1.0" layoutY="38.0" prefHeight="17.0" prefWidth="900.0"/>
+                        <Pane fx:id="messagePane" layoutY="1.0" prefHeight="44.0" prefWidth="900.0">
+                            <children>
+                                <Text fx:id="messageText" fill="#ddd3d3" layoutX="23.0" layoutY="27.0"
+                                      strokeType="OUTSIDE" strokeWidth="0.0" text="MESSAGE" wrappingWidth="840.921875">
+                                </Text>
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+            </children>
+        </FlowPane>
+    </children>
+</AnchorPane>
